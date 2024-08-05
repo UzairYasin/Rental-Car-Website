@@ -48,7 +48,7 @@ onChange={(e) => setQuery(e.target.value)}
 {
 filteredManufacrurers.length === 0 && query !== "" ? (
   <Combobox.Option value={query} className="search-manufacturer__option">
-    Create "{query}"
+    Create &quot;{query}&quot;
   </Combobox.Option>
 ):(
   filteredManufacrurers.map((item) => (
